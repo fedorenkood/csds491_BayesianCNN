@@ -75,7 +75,7 @@ def target_transform(crop_size):
 
 
 def get_training_set(upscale_factor, dataset):
-    if(dataset == "bsd300"):
+    if(dataset == "BSD300"):
         root_dir = download_bsd300()
         train_dir = join(root_dir, "train")
     else:
@@ -89,7 +89,7 @@ def get_training_set(upscale_factor, dataset):
 
 
 def get_test_set(upscale_factor, dataset):
-    if(dataset == "bsd300"):
+    if(dataset == "BSD300"):
         root_dir = download_bsd300()
         test_dir = join(root_dir, "test")
     else:
