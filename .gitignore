@@ -8,3 +8,5 @@ checkpoint_/
 
 *.h5
 *.ipynb_checkpoints
+
+*.zip
