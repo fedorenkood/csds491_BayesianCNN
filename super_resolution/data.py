@@ -113,7 +113,6 @@ def get_test_set(upscale_factor, dataset):
     if(dataset == "BSD300"):
         root_dir = download_bsd300()
         test_dir = join(root_dir, "test")
-
     else:
         download_coco_testing()
         test_dir = "./super_resolution/dataset/coco/images/test"
